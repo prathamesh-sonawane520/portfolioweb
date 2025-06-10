@@ -1530,5 +1530,31 @@ body {
   margin: 0;
   /* Your existing styles here */
 }
+.insta-page-section {
+  background-color: #00132a; /* deep blue background */
+  padding: 60px 0;
+  text-align: center;
+  color: #ffd600; /* yellow heading to match your theme */
+}
+
+.insta-page-section h2 {
+  font-family: 'Bebas Neue', 'Anton', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 24px;
+  letter-spacing: 2px;
+}
+
+.insta-screenshot {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(255, 214, 0, 0.5); /* subtle yellow glow */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.insta-screenshot:hover {
+  transform: scale(1.05);
+}
 
 
